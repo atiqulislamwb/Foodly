@@ -11,6 +11,13 @@
 		B45C290D2C269B13007E9116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C290C2C269B13007E9116 /* ContentView.swift */; };
 		B45C290F2C269B15007E9116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C290E2C269B15007E9116 /* Assets.xcassets */; };
 		B45C29122C269B15007E9116 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C29112C269B15007E9116 /* Preview Assets.xcassets */; };
+		B45C291A2C26A7C7007E9116 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29192C26A7C7007E9116 /* MainTabView.swift */; };
+		B45C29222C26A851007E9116 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29212C26A851007E9116 /* ProfileView.swift */; };
+		B45C29242C26A85D007E9116 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29232C26A85D007E9116 /* OrderView.swift */; };
+		B45C29262C26A868007E9116 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29252C26A868007E9116 /* CartView.swift */; };
+		B45C29282C26A873007E9116 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29272C26A873007E9116 /* HomeView.swift */; };
+		B45C292B2C26A9D7007E9116 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */; };
+		B45C292D2C26AF85007E9116 /* DrawerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C292C2C26AF85007E9116 /* DrawerContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		B45C290C2C269B13007E9116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B45C290E2C269B15007E9116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45C29112C269B15007E9116 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B45C29192C26A7C7007E9116 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B45C29212C26A851007E9116 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B45C29232C26A85D007E9116 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		B45C29252C26A868007E9116 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B45C29272C26A873007E9116 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		B45C292C2C26AF85007E9116 /* DrawerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,14 @@
 		B45C29092C269B13007E9116 /* Foodly */ = {
 			isa = PBXGroup;
 			children = (
-				B45C290A2C269B13007E9116 /* FoodlyApp.swift */,
+				B45C29292C26A899007E9116 /* Models */,
+				B45C29182C26A7A0007E9116 /* App */,
+				B45C29202C26A828007E9116 /* Components */,
+				B45C291B2C26A7D0007E9116 /* Screens */,
 				B45C290C2C269B13007E9116 /* ContentView.swift */,
 				B45C290E2C269B15007E9116 /* Assets.xcassets */,
 				B45C29102C269B15007E9116 /* Preview Content */,
+				B45C29192C26A7C7007E9116 /* MainTabView.swift */,
 			);
 			path = Foodly;
 			sourceTree = "<group>";
@@ -65,6 +83,73 @@
 				B45C29112C269B15007E9116 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B45C29182C26A7A0007E9116 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B45C290A2C269B13007E9116 /* FoodlyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B45C291B2C26A7D0007E9116 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B45C291F2C26A81C007E9116 /* Profile */,
+				B45C291E2C26A813007E9116 /* Order */,
+				B45C291D2C26A7E8007E9116 /* Cart */,
+				B45C291C2C26A7E1007E9116 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B45C291C2C26A7E1007E9116 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B45C29272C26A873007E9116 /* HomeView.swift */,
+				B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B45C291D2C26A7E8007E9116 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				B45C29252C26A868007E9116 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		B45C291E2C26A813007E9116 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B45C29232C26A85D007E9116 /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		B45C291F2C26A81C007E9116 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B45C29212C26A851007E9116 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B45C29202C26A828007E9116 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B45C292C2C26AF85007E9116 /* DrawerContentView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B45C29292C26A899007E9116 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45C29262C26A868007E9116 /* CartView.swift in Sources */,
+				B45C29282C26A873007E9116 /* HomeView.swift in Sources */,
+				B45C29222C26A851007E9116 /* ProfileView.swift in Sources */,
+				B45C292D2C26AF85007E9116 /* DrawerContentView.swift in Sources */,
 				B45C290D2C269B13007E9116 /* ContentView.swift in Sources */,
+				B45C292B2C26A9D7007E9116 /* HomeHeaderView.swift in Sources */,
 				B45C290B2C269B13007E9116 /* FoodlyApp.swift in Sources */,
+				B45C291A2C26A7C7007E9116 /* MainTabView.swift in Sources */,
+				B45C29242C26A85D007E9116 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
