@@ -70,30 +70,30 @@ struct HomeHeaderView: View {
                                   }
                               })
                           }
-                          .padding()
+                      
              
              // Drawer view
-             GeometryReader { geometry in
-                 HStack {
-                     VStack {
-                         Spacer()
-                         // Drawer content here
-                         DrawerContentView()
-                         Spacer()
-                     }
-                     .frame(width: geometry.size.width * 0.75)
-                     .background(Color.white)
-                     .offset(x: isDrawerOpen ? 0 : -geometry.size.width * 0.75)
-                 
-                     Spacer()
-                 }
-             }
-             .background(Color.black.opacity(isDrawerOpen ? 0.5 : 0).edgesIgnoringSafeArea(.all))
-             .onTapGesture {
-                 withAnimation {
-                     isDrawerOpen = false
-                 }
-             }
+//             GeometryReader { geometry in
+//                 HStack {
+//                     VStack {
+//                         Spacer()
+//                         // Drawer content here
+//                         DrawerContentView()
+//                         Spacer()
+//                     }
+//                     .frame(width: geometry.size.width * 0.75)
+//                     .background(Color.white)
+//                     .offset(x: isDrawerOpen ? 0 : -geometry.size.width * 0.75)
+//                 
+//                     Spacer()
+//                 }
+//             }
+//             .background(Color.black.opacity(isDrawerOpen ? 0.5 : 0).edgesIgnoringSafeArea(.all))
+//             .onTapGesture {
+//                 withAnimation {
+//                     isDrawerOpen = false
+//                 }
+//             }
          }
      }
  }

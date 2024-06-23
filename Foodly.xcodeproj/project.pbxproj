@@ -18,6 +18,9 @@
 		B45C29282C26A873007E9116 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C29272C26A873007E9116 /* HomeView.swift */; };
 		B45C292B2C26A9D7007E9116 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */; };
 		B45C292D2C26AF85007E9116 /* DrawerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C292C2C26AF85007E9116 /* DrawerContentView.swift */; };
+		B46570A12C27E8280071CCAE /* HomeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A02C27E8280071CCAE /* HomeSearchView.swift */; };
+		B46570A32C27EFF70071CCAE /* HomeScrollButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */; };
+		B46570A52C27F4A20071CCAE /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A42C27F4A20071CCAE /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		B45C29272C26A873007E9116 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		B45C292C2C26AF85007E9116 /* DrawerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerContentView.swift; sourceTree = "<group>"; };
+		B46570A02C27E8280071CCAE /* HomeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchView.swift; sourceTree = "<group>"; };
+		B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScrollButtonView.swift; sourceTree = "<group>"; };
+		B46570A42C27F4A20071CCAE /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 			children = (
 				B45C29272C26A873007E9116 /* HomeView.swift */,
 				B45C292A2C26A9D7007E9116 /* HomeHeaderView.swift */,
+				B46570A02C27E8280071CCAE /* HomeSearchView.swift */,
+				B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */,
+				B46570A42C27F4A20071CCAE /* BannerView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -227,7 +236,10 @@
 				B45C29222C26A851007E9116 /* ProfileView.swift in Sources */,
 				B45C292D2C26AF85007E9116 /* DrawerContentView.swift in Sources */,
 				B45C290D2C269B13007E9116 /* ContentView.swift in Sources */,
+				B46570A32C27EFF70071CCAE /* HomeScrollButtonView.swift in Sources */,
+				B46570A12C27E8280071CCAE /* HomeSearchView.swift in Sources */,
 				B45C292B2C26A9D7007E9116 /* HomeHeaderView.swift in Sources */,
+				B46570A52C27F4A20071CCAE /* BannerView.swift in Sources */,
 				B45C290B2C269B13007E9116 /* FoodlyApp.swift in Sources */,
 				B45C291A2C26A7C7007E9116 /* MainTabView.swift in Sources */,
 				B45C29242C26A85D007E9116 /* OrderView.swift in Sources */,
