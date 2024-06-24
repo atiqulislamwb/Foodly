@@ -24,14 +24,32 @@ struct HomeView: View {
                 
                 Spacer()
             }
-            .padding(.top)
+            .padding(.top, -1)
             
             //Search Button
             HomeSearchView()
+                .padding(.top, -4)
             HomeScrollButtonView()
                 .padding(.top, 5)
             BannerView()
                 .padding(.top, 5)
+            
+            HStack(){
+                Text("Open Restaurants")
+                    .font(.title2)
+                    .fontWeight(.medium)
+                Spacer()
+                Text("See All")
+                    .font(.title3)
+                    .foregroundStyle(.red)
+                    .fontWeight(.light)
+            }
+            .padding(.top, 5)
+            
+            HomeProductsView()
+                .padding(.top, -14)
+                
+            
               
           
         }

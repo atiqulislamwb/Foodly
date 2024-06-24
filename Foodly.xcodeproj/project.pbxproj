@@ -21,6 +21,7 @@
 		B46570A12C27E8280071CCAE /* HomeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A02C27E8280071CCAE /* HomeSearchView.swift */; };
 		B46570A32C27EFF70071CCAE /* HomeScrollButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */; };
 		B46570A52C27F4A20071CCAE /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46570A42C27F4A20071CCAE /* BannerView.swift */; };
+		B49A33EC2C2939EF002679A4 /* HomeProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A33EB2C2939EF002679A4 /* HomeProductsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B46570A02C27E8280071CCAE /* HomeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchView.swift; sourceTree = "<group>"; };
 		B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScrollButtonView.swift; sourceTree = "<group>"; };
 		B46570A42C27F4A20071CCAE /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		B49A33EB2C2939EF002679A4 /* HomeProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				B46570A02C27E8280071CCAE /* HomeSearchView.swift */,
 				B46570A22C27EFF70071CCAE /* HomeScrollButtonView.swift */,
 				B46570A42C27F4A20071CCAE /* BannerView.swift */,
+				B49A33EB2C2939EF002679A4 /* HomeProductsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				B46570A12C27E8280071CCAE /* HomeSearchView.swift in Sources */,
 				B45C292B2C26A9D7007E9116 /* HomeHeaderView.swift in Sources */,
 				B46570A52C27F4A20071CCAE /* BannerView.swift in Sources */,
+				B49A33EC2C2939EF002679A4 /* HomeProductsView.swift in Sources */,
 				B45C290B2C269B13007E9116 /* FoodlyApp.swift in Sources */,
 				B45C291A2C26A7C7007E9116 /* MainTabView.swift in Sources */,
 				B45C29242C26A85D007E9116 /* OrderView.swift in Sources */,

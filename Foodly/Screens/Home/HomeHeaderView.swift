@@ -22,12 +22,13 @@ struct HomeHeaderView: View {
                  }, label: {
                      Image(systemName: "line.horizontal.3")
                          .resizable()
-                         .frame(width: 20, height: 20)
+                         .frame(width: 18, height: 18)
                          .padding()
-                         .background(Color.gray.opacity(0.2))
+                         .background(Color.gray.opacity(0.1))
                          .clipShape(Circle())
                          .foregroundStyle(.black)
                  })
+               
                  
                  VStack(alignment: .leading ) {
                      Text("DELIVER TO")
@@ -52,11 +53,12 @@ struct HomeHeaderView: View {
                                   ZStack {
                                       Image(systemName: "bell")
                                           .resizable()
-                                          .frame(width: 20, height: 20)
+                                          .frame(width: 18, height: 18)
                                           .padding()
-                                          .background(Color.gray.opacity(0.2))
+                                          .background(Color.gray.opacity(0.1))
                                           .clipShape(Circle())
                                           .foregroundStyle(.black)
+                                          .shadow(color: Color.gray.opacity(0.2), radius: 5, x: 0, y: 2)
                                       
                                       if badgeCount > 0 {
                                           Text("\(badgeCount)")
@@ -73,27 +75,27 @@ struct HomeHeaderView: View {
                       
              
              // Drawer view
-//             GeometryReader { geometry in
-//                 HStack {
-//                     VStack {
-//                         Spacer()
-//                         // Drawer content here
-//                         DrawerContentView()
-//                         Spacer()
-//                     }
-//                     .frame(width: geometry.size.width * 0.75)
-//                     .background(Color.white)
-//                     .offset(x: isDrawerOpen ? 0 : -geometry.size.width * 0.75)
-//                 
-//                     Spacer()
-//                 }
-//             }
-//             .background(Color.black.opacity(isDrawerOpen ? 0.5 : 0).edgesIgnoringSafeArea(.all))
-//             .onTapGesture {
-//                 withAnimation {
-//                     isDrawerOpen = false
-//                 }
-//             }
+             GeometryReader { geometry in
+                 HStack {
+                     VStack {
+                         Spacer()
+                         // Drawer content here
+                         DrawerContentView()
+                         Spacer()
+                     }
+                     .frame(width: geometry.size.width * 0.75)
+                     .background(Color.gray)
+                     .offset(x: isDrawerOpen ? 0 : -geometry.size.width * 0.75)
+                 
+                     Spacer()
+                 }
+             }
+             .background(Color.black.opacity(isDrawerOpen ? 0.5 : 0).edgesIgnoringSafeArea(.all))
+             .onTapGesture {
+                 withAnimation {
+                     isDrawerOpen = false
+                 }
+             }
          }
      }
  }
