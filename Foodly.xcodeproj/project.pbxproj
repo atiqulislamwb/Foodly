@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45523BA2C2A7FA600C72ACA /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45523B92C2A7FA600C72ACA /* ProductDetailView.swift */; };
+		B45523BF2C2A83E100C72ACA /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45523BE2C2A83E100C72ACA /* DetailHeaderView.swift */; };
+		B45523C12C2A86E100C72ACA /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45523C02C2A86E100C72ACA /* ImageCarouselView.swift */; };
+		B45523C32C2A91F200C72ACA /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45523C22C2A91F200C72ACA /* DetailContentView.swift */; };
 		B45C290B2C269B13007E9116 /* FoodlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C290A2C269B13007E9116 /* FoodlyApp.swift */; };
 		B45C290D2C269B13007E9116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C290C2C269B13007E9116 /* ContentView.swift */; };
 		B45C290F2C269B15007E9116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C290E2C269B15007E9116 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B45523B92C2A7FA600C72ACA /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		B45523BE2C2A83E100C72ACA /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		B45523C02C2A86E100C72ACA /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		B45523C22C2A91F200C72ACA /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
 		B45C29072C269B13007E9116 /* Foodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45C290A2C269B13007E9116 /* FoodlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodlyApp.swift; sourceTree = "<group>"; };
 		B45C290C2C269B13007E9116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B45523B82C2A7F8B00C72ACA /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B45523B92C2A7FA600C72ACA /* ProductDetailView.swift */,
+				B45523BE2C2A83E100C72ACA /* DetailHeaderView.swift */,
+				B45523C02C2A86E100C72ACA /* ImageCarouselView.swift */,
+				B45523C22C2A91F200C72ACA /* DetailContentView.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
 		B45C28FE2C269B13007E9116 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +123,7 @@
 		B45C291B2C26A7D0007E9116 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B45523B82C2A7F8B00C72ACA /* ProductDetail */,
 				B45C291F2C26A81C007E9116 /* Profile */,
 				B45C291E2C26A813007E9116 /* Order */,
 				B45C291D2C26A7E8007E9116 /* Cart */,
@@ -235,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45C29262C26A868007E9116 /* CartView.swift in Sources */,
+				B45523BA2C2A7FA600C72ACA /* ProductDetailView.swift in Sources */,
 				B45C29282C26A873007E9116 /* HomeView.swift in Sources */,
 				B45C29222C26A851007E9116 /* ProfileView.swift in Sources */,
 				B45C292D2C26AF85007E9116 /* DrawerContentView.swift in Sources */,
@@ -247,6 +268,9 @@
 				B45C290B2C269B13007E9116 /* FoodlyApp.swift in Sources */,
 				B45C291A2C26A7C7007E9116 /* MainTabView.swift in Sources */,
 				B45C29242C26A85D007E9116 /* OrderView.swift in Sources */,
+				B45523C32C2A91F200C72ACA /* DetailContentView.swift in Sources */,
+				B45523C12C2A86E100C72ACA /* ImageCarouselView.swift in Sources */,
+				B45523BF2C2A83E100C72ACA /* DetailHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

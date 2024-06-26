@@ -33,6 +33,10 @@ struct HomeProductsView: View {
         ScrollView (.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
                 ForEach(products) { product in
+                    NavigationLink(destination: ProductDetailView()
+                         .navigationBarBackButtonHidden()){
+                        
+                
                     VStack(alignment: .leading, spacing: 10) {
                         HStack {
                             Image(systemName: "star.fill")
@@ -84,9 +88,12 @@ struct HomeProductsView: View {
                     .shadow(radius: 2)
                 }
                 .padding(.vertical, 5)
+                    
+                }
             }
             .padding(.horizontal, 5)
         }
+//        .scrollTargetBehavior(.paging)
     }
 }
 
