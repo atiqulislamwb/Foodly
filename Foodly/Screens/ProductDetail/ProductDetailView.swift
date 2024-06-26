@@ -24,10 +24,6 @@ struct ProductDetailView: View {
                 .clipped()
             
             DetailContentView()
-    
-            
-            
-            
         }
         .padding(.horizontal, 10)
         .toolbar(.hidden, for: .tabBar)
